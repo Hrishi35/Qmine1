@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.owner.pdf.Sessional1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:text="G.H. Raisoni Academy of Engineering and Technology,Nagpur"
+        android:gravity="center_horizontal"
+        android:textSize="12dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+android:textStyle="bold"
+        android:gravity="center"
+        android:text="Department of Computer Science and Engineering"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SESSION:2017-18(EVEN Sem)"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SESSIONAL EXAMINATION - 1"
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Subject : Cloud Computing"/>
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="8th Semester/Section A "/>
+    <TextView
+        android:id="@+id/v2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:id="@+id/orone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="OR"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:id="@+id/v3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:id="@+id/ortwo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="OR"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate PDF"
+        android:layout_gravity="center"
+        android:onClick="createPDFone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:layout_gravity="center"
+        android:onClick="onSend"/>
+</LinearLayout>
+</ScrollView>
